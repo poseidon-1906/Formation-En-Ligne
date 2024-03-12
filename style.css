@@ -28,8 +28,8 @@ body{
 }
 footer .min a{
   color: rgba(0, 0, 255, 0.863);
-  margin :2%;
-  font-size: 40px;
+  margin :10px;
+  font-size: 30px;
 }
 footer a{
   color: #ffffffdc;
