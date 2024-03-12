@@ -1,0 +1,60 @@
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+ 
+}
+body{
+  font-family: 'RockfordSans-Bold',sans-serif;
+}
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+@font-face {
+  font-family: 'RockfordSans-Medium';
+  src: url('RockfordSans-Medium.ttf') format('ttf'),
+       url('RockfordSans-Bold.ttf') format('ttf2');
+}
+#prix{
+  font-size:3.5rem;
+}
+footer .min a{
+  color: rgba(0, 0, 255, 0.863);
+  margin :2%;
+  font-size: 40px;
+}
+footer a{
+  color: #ffffffdc;
+  font-size: 30px;
+  text-decoration: underline;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+#acn-prix{
+  text-decoration: line-through;
+  color: #757575ad;
+  font-size: 2rem;
+  margin-left: 10%;
+}
+ul{
+  list-style: none;
+}
+ .text{
+ text-transform: uppercase;
+ font-size: 40px;
+ color: blue;
+}
+.card-body{
+ height: 320px; 
+ padding-bottom: 50px;
+}
