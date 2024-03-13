@@ -52,7 +52,8 @@ ul{
  .text{
  text-transform: uppercase;
  font-size: 40px;
- color: blue;
+ font-weight: bolder;
+ color: rgba(29, 183, 255, 0.904);
 }
 .card-body{
  height: 320px; 
