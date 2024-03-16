@@ -2,134 +2,142 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    
-    <link rel="stylesheet" href="style/dash.css">
-    <link rel="stylesheet" href="style/mainStyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
     <title>Document</title>
     <style>
-        .main{
-    background: url(img/blur.jpg);
-    background-size: cover;
-    width: 120%;
-    margin: 0;
-    box-sizing: border-box;
+        @media(min-width:900px){
+     .banner {
+        background:url(images/blur.jpg);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+        padding-top: 2rem;
+        padding-left: 3%;
+        padding-bottom: 3rem;
+        max-width: 150%;
+        
+    } 
 }
-.main1{
-    background-color: rgba(160, 160, 160, 0.295);
-    width: 87%;
-    padding: 25px 10px 5px 150px;
-}
-@media (max-width:600px){
-    .main{
-    background:url(img/blur.jpg);
-    background-size: cover;
-    width: 290%;
-    height: 790px;
-    margin: 0;
-    font-size: 30px;
-}
-.main1{
-    background-color: rgba(255, 255, 255, 0.37);
-    width: 85%;
-    padding: 25px 10px 60px 150px;
-}
-}
+ @media(max-width:900px){
+    .banner{
+        background: url(images/new.jpg);
+        background-size: cover;
+        width: 100%;
+        margin: 0 !important; 
+        padding: 1.2em 0.2rem;
+
+    }
+ }
     </style>
 </head>
 <body>
-   <div class="main">
-    <div class="main1">
-        <div class="cont">
-            <div class="another">
-              <p id="p1">RESSOURCE : COURS</p>
-              <p id="p2">STATUS : DISPONIBLE</p>
-            </div>
-              <img src="img/vision.png" alt="">
-          </div>
-          <div class="cont1">
-              <h1>FORMATION EN CAMPAGNE PUBLICITAIRE <span>2024</span></h1>
-          </div>
-    </div>
-   </div>
-   <div class="main-part1">
-    <p>Avis de la communauté</p>
-    <p><span>5 </span><img src="img/icons8_star.ico" alt=""> <img src="img/icons8_star.ico" alt="">
-        <img src="img/icons8_star.ico" alt="">
-        <img src="img/icons8_star.ico" alt="">
-        <img src="img/icons8_star.ico" alt=""></p>
-        <hr>
-   </div>
-  <div class="main-part2">
-    <p id="info">Les infos clés</p>
-    <div class="info-sub">
-        <div>
-        <img src="img/study_80px.png" alt="">
-        <p>GUIDE PRATIQUE</p>
-    </div>
-    <div>
-        <img src="img/geography_60px.png" alt="">
-        <p>100% ACTUALISE</p>
-        </div>
-    </div>
-  </div>
-  <div class="plus">
-    <img src="img/cover_Formatio.png" alt="">
-  <div class="main-describ">
-    <p id="info">En résumé</p>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt magnam, ducimus, tenetur amet corporis illo dolor quos ad provident nisi animi natus facilis nesciunt voluptatem quidem tempora, consequatur obcaecati fuga.</p>
-  </div>
-  </div>
-  <div class="main-describ2">
-    <div>
-        <div class="icon-des">
-            <img src="img/Menu_50px.png" alt=""><p id="icon-des">Le programme</p>
-        </div>
-        <ol>
-            <li>Introduction</li>
-            <li>Durer</li>
-            <li>Répéter</li>
-            <li>Rythmer</li>
-            <li>Marcher</li>
-            <li>Conclusion</li>
-        </ol>
-    </div>
-    <div>
-        <div class="icon-des">
-            <img src="img/idea_sharing_50px.png" alt=""><p id="icon-des">Les intervenants</p>
-        </div>
-        <ol>
-          Intervenants de VISION PUB  
-        </ol>
-    </div>
-    <div>
-        <div class="icon-des">
-            <img src="img/Tools_50px.png" alt=""><p id="icon-des">Le concepteur</p>
-        </div>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad facilis ex ipsum! A cumque nostrum veritatis magnam expedita perspiciatis! Laboriosam expedita voluptatum autem accusamus ab earum cum officia nisi delectus.</p>
-    </div>
-    <div class="icon-des">
-        <img src="img/property_50px.png" alt=""><p id="icon-des">
-            Les plateforme</p>
-    </div>
-   <div class="ultime">
-    <div class="image-container">
-        <img src="img/visa.png" alt="">
-        <img src="img/master.png" alt="">
-        <img src="img/paypal.png" alt="">
-        <img src="img/discover.png" alt="">
-      </div>
-    <div class="image-container">
-        <img src="img/orange.png" alt="">
-        <img src="img/mtn.jpg" alt="">
-        <img src="img/images.png" alt="">
-      </div>
-   </div>
-  </div>
+    <!-- --------------------------header area -->
+        <header class="header-area">
+             
+        </header>
 
-  <div class="last1">
-    <button><a href="payement-mobile.html">Acheter maintenant</a></button>
-  </div>
+     <!-- --------------------------header area -->
+<!-- main area------------------------------------- -->
+
+<!-- start of banner area ------------------------------------- -->
+<section class="banner">
+ <div class="btn-section">
+    <button class="first-btn">RESSOURCE : COURS</button>
+    <button class="second-btn">STATUS : DISPONIBLE</button>
+ </div>
+  <img src="images/vision.png" alt="" class="img-fluid"> 
+  <p>FORMATION EN CAMPAGNE PUBLICITAIRE <span>2024</span></p>
+</section>
+
+<!------------------------------------- end of banner------------------------------------- -->
+<section class="banner2">
+    <div class="main-part1">
+        <h3 id="info">Avis de la communauté</h3>
+        <p><span>5 </span><img src="images/icons8_star.ico" alt=""> <img src="images/icons8_star.ico" alt="">
+            <img src="images/icons8_star.ico" alt="">
+            <img src="images/icons8_star.ico" alt="">
+            <img src="images/icons8_star.ico" alt=""></p>
+            <hr>
+       </div>
+       <div class="main-part2">
+        <p id="info">Les infos clés</p>
+        <div class="info-sub">
+            <div class="cert1">
+            <img src="images/study_80px.png" alt="">
+            <p>GUIDE PRATIQUE</p>
+        </div>
+        <div class="cert2">
+            <img src="images/geography_80px.png" alt="">
+            <p>100% ACTUALISE</p>
+            </div>
+        </div>
+      </div>
+</section>
+<section class="banner3">
+    <div class="plus">
+        <img src="images/cover_Formatio.png" alt="" class="img-fluid">
+      <div class="main-describ">
+        <p id="info">En résumé</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt magnam, ducimus, tenetur amet corporis illo dolor quos ad provident nisi animi natus </p>
+      </div>
+      </div>
+</section>
+<section class="banner4">
+    <div class="main-describ2">
+        <div>
+            <div class="icon-des">
+                <img src="images/Menu_50px.png" alt=""><p>Le programme</p>
+            </div>
+            <ol>
+                <li>Introduction</li>
+                <li>Durer</li>
+                <li>Répéter</li>
+                <li>Rythmer</li>
+                <li>Marcher</li>
+                <li>Conclusion</li>
+            </ol>
+        </div>
+        <div>
+            <div class="icon-des">
+                <img src="images/idea_sharing_50px.png" alt=""><p>Les intervenants</p>
+            </div>
+            <ol>
+              Intervenants de VISION PUB  
+            </ol>
+        </div>
+        <div>
+            <div class="icon-des">
+                <img src="images/Tools_50px.png" alt=""><p id=>Le concepteur</p>
+            </div>
+            <ol> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad facilis ex ipsum! A cumque </ol>
+        </div>
+        <div class="icon-des">
+            <img src="images/property_50px.png" alt=""><p>
+                Les plateforme</p>
+        </div>
+       <div class="ultime">
+        <div class="image-container">
+            <img src="images/visa.png" alt="">
+            <img src="images/master.png" alt="">
+            <img src="images/paypal.png" alt="">
+            <img src="images/discover.png" alt="">
+          </div>
+        <div class="image-container">
+            <img src="images/orange.png" alt="">
+            <img src="images/mtn.jpg" alt="">
+            <img src="images/images.png" alt="">
+          </div>
+       </div>
+      </div>
+      <div class="last1">
+        <button><a href="payement-mobile.html">Acheter maintenant</a></button>
+      </div>
+</section>
+
+    <script src="js/jQuery.js"></script>
+    <script src="js/bootstrap.min.js  "></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
