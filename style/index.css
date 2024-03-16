@@ -1,0 +1,265 @@
+/*  */
+:root{
+    --blue: #2BC2F2;
+    --marineB: #016AE5;
+    --bluef:#102E8D;
+    --bluenoir:#1B034E;
+    --black: #1A1A1A;
+}
+@font-face {
+    font-family: 'RockfordSans-Medium';
+    src: url('RockfordSans-Medium.ttf') format('ttf'),
+         url('RockfordSans-Bold.ttf') format('ttf2');
+  }
+   html{
+    font-family: 'RockfordSans-Bold',sans-serif;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+body{
+    background-color: #f0f0f0f0;
+    font-family: 'RockfordSans-Bold',sans-serif;
+    margin: 0 !important;
+    padding: 0 !important;
+} 
+
+.start .img-fluid{
+height: 90px;
+width: 220px;
+}
+@media(min-width:900px){ 
+    .main-describ{
+        background-color: #ffffff;
+        border: 2px solid grey;
+        padding: 12px 8rem;
+    
+    }
+    .banner .img-fluid{
+       top: -140px;
+        position: relative;
+        right: 15%;
+        }
+        .banner p{
+            position:absolute;
+            top: 25%;
+            font-size: 30px;
+            font-weight: bolder;
+            color:var(--blue);
+        }
+        .banner p span{
+            font-size: 60px;
+            font-weight: bolder;
+            color: #fff;
+        }
+        .banner3 .img-fluid{
+            height: 60vh;
+            width: auto;
+            margin:auto 3rem;
+            border-radius: 12px;
+        }
+        .banner3 .plus{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 5.5rem 8rem;
+        }
+        .banner4{
+            padding-left: 8rem;
+            
+        }
+        .last1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .last1 button{
+            height: 8vh;
+            width: 20%;
+            background-color: var(--marineB);
+            border: none;
+            border-radius: 6px;
+          margin-right: 25%;
+          transition: ease-in-out 0.6s;
+          
+        }
+        .last1 button:hover{
+            background-color: #016be5b9;
+        }
+        .last1 button a{
+           text-decoration: none;
+           color: #fff;
+           font-size: 1.5rem;
+        }
+
+}
+@media(max-width:900px){
+    .banner p{
+        margin-top: 3rem; 
+        font-size: 27px;
+        font-weight: bolder;
+        color:var(--blue);
+        text-align: center;
+    }
+    .banner3 .plus .img-fluid{
+       width: 80%;
+       margin-left: 8%;
+    }
+    .banner p span{
+        font-size: 45px;
+        font-weight: bolder;
+        color: #fff;
+    }
+   
+    .main-describ{
+        padding: 2rem 4%;
+    }
+    .banner3{
+        margin-top: 6%;
+    }
+    
+    .last1 button{
+        height:8vh;
+        width: 60%;
+        background-color: var(--marineB);
+        border: none;
+        border-radius: 6px;
+        transition: ease-in-out 0.6s;
+        margin-left: 20%;
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+    }
+    .last1 button:hover{
+        background-color: #016be5b9;
+    }
+    .last1 button a{
+       text-decoration: none;
+       color: #fff;
+       font-size: 1.5rem;
+    }
+    .banner4 .icon-des p{
+        font-size: 1.7rem;
+        position: relative;
+        top: 0.6rem;
+        margin-left: 1%;
+        color: #102E8D;
+        text-transform: uppercase;
+    }
+}
+.banner4 .icon-des{
+    display: flex;
+  align-items: center;
+  margin-left: 4%;
+}
+.banner4 .icon-des p{
+    font-size: 1.7rem;
+    margin-top: 3%;
+    margin-left: 1%;
+    color: #102E8D;
+    text-transform: uppercase;
+  
+}
+.banner4 .icon-des img{
+    height: 35px;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #fff;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.123);
+}
+   
+.first-btn{
+    height: 40px;
+    width: 250px;
+    padding-bottom: 2px;
+    font-size: 1.2rem;
+    background-color: var(--blue);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.banner .img-fluid{
+   margin-top: 10%;
+    height: 100px;
+    width: auto;
+}
+
+.second-btn{
+    height: 40px;
+    width: 250px;
+    padding-bottom: 2px;
+    font-size: 1.2rem;
+    background-color: var(--bluenoir);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+/* ===================== start of banner2 ============================= */
+.main-part1 span{
+    color: #f7c900;
+    font-size: 55px ;
+    font-weight: bolder;  
+}
+
+
+.main-span{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.main-part1{
+    text-align: center;
+}
+.main-span img{
+    height: 35px;
+}
+@media(min-width:900px){
+    .info-sub{
+       position: relative;
+       left: -30%;
+    }
+    .banner2{
+        padding-left: 15%;
+        padding-top: 3vh;
+    }
+    .main-part1{
+        text-align: start;
+    }
+}
+#info{
+    font-size: 2.5rem;
+    color: var(--bluenoir);
+}
+.info-sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.cert1, .cert2{
+    margin-left: 10%;
+}
+.cert1 p, .cert2 p{
+   font-weight:bolder;
+}
+
+/* ===================== end of banner2 ============================= */
+
+
+/* ==========================banner 3 ========================= */
+
+
+/* ===============================banner 4 ============== */
+.ultime img{
+    height: 60px;
+    margin: 15px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.133);
+}
+.banner4 ol{
+    margin-left: 5%;
+    list-style: none;
+}
