@@ -34,17 +34,28 @@ width: 220px;
         padding: 12px 8rem;
     
     }
+    .ultime img{
+        height: 2.5rem;
+        background-color: #ffffff;
+        border-radius: 2px;
+        box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.133);
+        margin: 0.2rem;
+    }
+    
     .banner .img-fluid{
        top: -140px;
         position: relative;
         right: 15%;
+        margin-top: 10%;
+        height: 100px;
+        width: auto;
         }
         .banner p{
             position:absolute;
             top: 25%;
             font-size: 30px;
             font-weight: bolder;
-            color:var(--blue);
+            color:#fff;
         }
         .banner p span{
             font-size: 60px;
@@ -92,6 +103,18 @@ width: 220px;
            color: #fff;
            font-size: 1.5rem;
         }
+        .image-container{
+            margin-left: 15%;
+        
+            } 
+            .banner4 .icon-des p{
+                font-size: 1.7rem;
+                margin-top: 3%;
+                margin-left: 2%;
+                color: #102E8D;
+                text-transform: uppercase;
+              
+            }
 
 }
 @media(max-width:900px){
@@ -99,9 +122,15 @@ width: 220px;
         margin-top: 3rem; 
         font-size: 27px;
         font-weight: bolder;
-        color:var(--blue);
+        color:#ffffff;
         text-align: center;
     }
+    .banner .img-fluid{
+         top: -74px;
+         position: relative;
+         right: -65%;
+         height: 40px;
+         }
     .banner3 .plus .img-fluid{
        width: 80%;
        margin-left: 8%;
@@ -117,6 +146,14 @@ width: 220px;
     }
     .banner3{
         margin-top: 6%;
+    }
+    .banner4 .icon-des p{
+        font-size: 1.7rem;
+        margin-top: 3%;
+        margin-left: 4%;
+        color: #102E8D;
+        text-transform: uppercase;
+      
     }
     
     .last1 button{
@@ -142,26 +179,64 @@ width: 220px;
         font-size: 1.7rem;
         position: relative;
         top: 0.6rem;
-        margin-left: 1%;
+        margin-left: 4%;
         color: #102E8D;
         text-transform: uppercase;
     }
+  .banner  .first-btn{
+        height: 40px;
+        width: 210px;
+        padding-bottom: 2px;
+        font-size: 1rem;
+        background-color: var(--blue);
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        margin-left: 0.6rem;
+    }
+    #info{
+        font-size: 2.5rem;
+        text-align: center;
+        color: var(--bluenoir);
+    }
+    /* .banner .img-fluid{
+       
+    } */
+    
+  .banner  .second-btn{
+        height: 40px;
+        width: 210px;
+        padding-bottom: 2px;
+        font-size: 1rem;
+        background-color: var(--bluenoir);
+        color: #fff;
+        border: none;
+        margin-left: 0.6rem;
+        border-radius: 5px;
+    }
+    .ultime img{
+        height: 2rem;
+        background-color: #ffffff;
+        border-radius: 5px;
+        margin-top: 2%;
+        box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.133);
+        
+    }
+     .image-container{
+    margin-left: 5%;
+
+    } 
 }
+
 .banner4 .icon-des{
     display: flex;
   align-items: center;
   margin-left: 4%;
 }
-.banner4 .icon-des p{
-    font-size: 1.7rem;
-    margin-top: 3%;
-    margin-left: 1%;
-    color: #102E8D;
-    text-transform: uppercase;
-  
-}
+
 .banner4 .icon-des img{
-    height: 35px;
+    height: 30px;
     padding: 5px;
     border-radius: 25px;
     background-color: #fff;
@@ -179,11 +254,9 @@ width: 220px;
     border-radius: 5px;
     margin-bottom: 10px;
 }
-.banner .img-fluid{
-   margin-top: 10%;
-    height: 100px;
-    width: auto;
-}
+/* .banner .img-fluid{
+   
+} */
 
 .second-btn{
     height: 40px;
@@ -231,6 +304,7 @@ width: 220px;
 #info{
     font-size: 2.5rem;
     color: var(--bluenoir);
+    font-weight: 500;
 }
 .info-sub{
     display: flex;
@@ -252,13 +326,12 @@ width: 220px;
 
 
 /* ===============================banner 4 ============== */
-.ultime img{
-    height: 60px;
-    margin: 15px;
+/* .ultime img{
+    height: 2.5rem;
     background-color: #ffffff;
-    border-radius: 15px;
+    border-radius: 5px;
     box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.133);
-}
+} */
 .banner4 ol{
     margin-left: 5%;
     list-style: none;
